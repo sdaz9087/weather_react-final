@@ -21,7 +21,7 @@ export default function Footer() {
         </a>{" "}
         and hosted on
         <a href="" target="_blank" rel="noreferrer">
-          {" "}
+          {"https://weatherl.onrender.com"}
           Render
         </a>
       </p>
