@@ -1,0 +1,6 @@
+@media screen and (max-width: 750px) {
+  /* form  3dots and city */
+  #search-form {
+    width: 90%;
+  }
+}

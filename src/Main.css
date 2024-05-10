@@ -1,0 +1,44 @@
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+  .weather-app {
+    width: 85%;
+  }
+  .current-temperature-value {
+    font-size: 72px;
+  }
+  .current-temperature-unit {
+    font-size: 24px;
+    top: -32px;
+  }
+  .current-details {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .weather-app {
+    width: 97%;
+  }
+  .current-temperature-value {
+    font-size: 64px;
+  }
+  .current-temperature-unit {
+    font-size: 15px;
+    top: -30px;
+  }
+  .current-details {
+    font-size: 14px;
+  }
+  .current-weather {
+    height: 42%;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  .col-5 {
+    width: 100%;
+  }
+  .justify-content-between {
+    justify-content: center;
+  }
+}

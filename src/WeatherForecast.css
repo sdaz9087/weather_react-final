@@ -1,0 +1,28 @@
+.WeatherForecast {
+  height: 30vh;
+  width: 100%;
+  /* background-color: #e1d6e6; */
+  /* opacity: 0.6; */
+  margin-top: 30px;
+  border-radius: 50px;
+}
+.WeatherForecast-temp-max {
+  color: #ff1493;
+  opacity: 0.9;
+}
+.WeatherForecast-temp-min {
+  opacity: 0.6;
+}
+.WeatherForecast > svg {
+  width: 72;
+  height: 72;
+}
+.WeatherForecast-day {
+  color: #63448b;
+}
+
+@media screen and ((max-width: 768px)) {
+  .WeatherForeCast {
+    visibility: hidden;
+  }
+}

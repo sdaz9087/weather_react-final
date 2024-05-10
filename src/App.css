@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  min-height: 100vh;
+  overscroll-behavior: none;
+}
+h5 {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+header > h1 {
+  color: rgb(237 216 239);
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+}
+a {
+  color: #000000;
+}
+.btn-outline-secondary {
+  --bs-btn-color: rgb(12, 11, 36);
+}
+.weather-app {
+  width: 60%;
+  max-width: 90%;
+  background-image: url(istockphoto-1160134500-612x612.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(69, 44, 126, 0.08);
+}
+#search-form {
+  width: 60%;
+}
+main {
+  padding: 30px 0;
+}
+#current-temperature {
+  color: rgb(0, 0, 0);
+}
+.current-temperature {
+  font-size: 48px;
+}
+.current-weather {
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+}
+.current-city {
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0;
+  color: rgb(15, 2, 31);
+}
+.current-details {
+  color: rgba(8, 3, 31, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.current-details strong {
+  color: #ff1493;
+}
+span#current-day {
+  color: rgb(99 68 139);
+  font-size: 20px;
+}
+.current-date,
+.current-time {
+  /* color: #ecd7ee; */
+  color: deeppink;
+}
+.current-temperature-value {
+  font-size: 80px;
+  font-weight: bold;
+  color: rgba(255, 255, 224, 0.886);
+}
+.current-temperature-unit {
+  font-size: 28px;
+  position: relative;
+  top: -38px;
+  color: rgba(255, 255, 224, 0.886);
+}
+.current-temperature-unit > a {
+  text-decoration: none;
+  color: rgb(31, 19, 46);
+}
+footer p {
+  color: #ecd7ee;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+}
+footer a {
+  text-decoration: none;
+  color: #fadfb7;
+}
